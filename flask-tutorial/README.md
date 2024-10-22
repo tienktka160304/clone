@@ -7,3 +7,4 @@ This repository is built step by step in the tutorial.
 It now includes steps for Github
 Changed
 Some thing went wrong
+I think so but well, everthing will be ok
