@@ -1,0 +1,13 @@
+version: '6.2'
+services:
+  cache:
+    image: redis:6.2
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --loglevel warning
+    volumes:
+      - cache:/data
+volumes:
+  cache:
+    driver: local
